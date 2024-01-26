@@ -1,0 +1,78 @@
+.body2 {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    max-width: 100%;
+    max-height: 130%;
+  }
+  
+  .imagegrid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+  }
+  
+  .imagecard {
+    position: relative;
+    overflow: hidden;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    max-width: 160%;
+    max-height: 160%;
+    margin: 10px;
+}
+  
+  .imagecard img {
+    max-width: 100%;
+    max-height: 100%;
+    display: block;
+    margin: 0; /* Agregado para asegurar que no haya mÃ¡rgenes */
+  }
+  
+  .imagecard:hover {
+    transform: scale(1.1);
+  }
+  
+  .imageoverlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  .titulo{
+    text-align: center;
+  }
+  
+  .imagecard:hover .imageoverlay {
+    opacity: 1;
+  }
+  
+  .imagedescription {
+    margin-bottom: 10px;
+  }
+  
+  .buybutton {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* Cambio en el orden de las imÃ¡genes mÃ¡s pequeÃ±as */
+  .imagecard:nth-child(1),
+  .imagecard:nth-child(3) {
+    order: -1;
+  }
+
+ 

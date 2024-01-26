@@ -1,0 +1,84 @@
+:root{
+    background-color: #fff;
+}
+
+.imagenproducto{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px #ccc;
+    transition: .3s ease;
+    cursor: pointer;
+    margin-bottom: 10px;
+  
+}
+.containercarrusel {
+    width: 80%; /* Ajusta el ancho del contenedor */
+    margin: auto; /* Centra el contenedor */
+   
+}
+.titulorepuestos{
+    font-size: 20px;
+    font-weight: bold;
+    color: #dc5834;
+    text-align: center;
+    margin-bottom: 60px;
+    
+}
+
+
+.tarjeta {
+    width: 70%; /* Ajusta el ancho de la tarjeta */
+    height: 80%; /* Ajusta la altura de la tarjeta */
+    border-radius: 10px; /* Mantiene los bordes redondeados */
+    border: 1px solid #ddd; /* Cambia el color del borde a un gris claro */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.15); /* Añade una sombra para darle profundidad */
+    margin-bottom: 20px; /* Mantiene el margen inferior */
+    display: flex; /* Usa flexbox para organizar el contenido */
+    flex-direction: column; /* Alinea el contenido verticalmente */
+    align-items: center; /* Centra el contenido horizontalmente */
+    padding: 20px; /* Añade un poco de espacio alrededor del contenido */
+    background-color: #fff; /* Cambia el color de fondo a blanco */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    transition: transform 0.3s ease-in-out; /* Añade una transición suave al transformar la tarjeta */
+}
+
+
+.tarjeta:hover {
+    transform: scale(1.05); /* Aumenta el tamaño de la tarjeta cuando se pasa el ratón por encima */
+}
+.container-fluid{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap: 50px;
+
+}
+.botoncomprar{
+   
+   justify-content: end;
+   background-color: #dc5834; 
+}
+.cuerpocard{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+
+}
+
+
+.swiper-button-next, .swiper-button-prev {
+    width: 20px;
+    height: 20px;
+}
+.swiper-button-next::after, .swiper-button-prev::after {
+    font-size: 20px;
+}
+a.botoncomprar:hover {
+    text-decoration: none !important;
+}

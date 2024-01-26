@@ -1,0 +1,49 @@
+
+.fondo {
+    background-image: url("../assets//Imagenes//microram_slider_4.jpg");
+    background-size: 100% 100%; /* Cambia esto */
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100vw; /* Ancho al 100% de la ventana del navegador */
+    height: 100vh; /* Altura al 100% de la ventana del navegador */
+    padding-left: 100px;
+    top: 0; /* Alinea el fondo con la parte superior de la pantalla */
+    left: 0; /* Alinea el fondo con el lado izquierdo de la pantalla */
+    text-align: left;
+    
+}
+
+.texto{
+    text-align: center;
+}
+
+
+.correo{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.correo svg {
+    margin-right: 30px; /* Ajusta este valor según tus necesidades */
+    
+}
+.logoclase{
+   
+    justify-content: start;
+}
+
+.logoclase2 img {
+    justify-content: center;
+    padding-top: 70px;
+    align-items: flex-start;
+    margin-left: 130px;
+}
+
+/* Estilos para pantallas de hasta 600px de ancho */
+@media (max-width: 600px) {
+    .logoclase2 img {
+        width: 100%; /* Ajusta el ancho del logo al 100% del contenedor */
+        padding-top: 20px; /* Reduce el padding superior */
+        margin-left: 0; /* Elimina el margen izquierdo */
+    }
+}

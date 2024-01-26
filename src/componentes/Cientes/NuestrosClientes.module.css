@@ -1,0 +1,40 @@
+ body1 {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 20px;
+  } 
+
+  .titulo{
+    text-align: center;
+  }
+
+  .container {
+    
+    max-width: 90%;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+  }
+
+  .logocarousel {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+  }
+
+  .logocarousel img {
+    max-width: 200px;
+    max-height: 150px;
+    object-fit: contain;
+     align-items: space-between;
+    margin: 0 10px;
+    filter: grayscale(100%); /* Blanco y negro por defecto */
+    transition: filter 0.5s ease; /* TransiciÃ³n suave */
+    
+  }
+
+  .logocarousel img:hover {
+    filter: grayscale(0%); /* Restaurar a color cuando pasas el ratÃ³n por encima */
+  }

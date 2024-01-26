@@ -1,0 +1,8 @@
+#root1 {
+    background-image: url("./assets/Imagenes/microram_slider_4.jpg");
+    background-size: cover; /* Ajusta la imagen para cubrir todo el elemento */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-position: center; /* Centra la imagen en el elemento */
+    
+}
+
