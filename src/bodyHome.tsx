@@ -11,6 +11,8 @@ import { Equipos } from './componentes/Servicios/Equipos'
 
 
 
+
+
 function Body() {
 
     return (
@@ -41,13 +43,7 @@ function Body() {
                 < Nuestroclientes />
                 <br />
             </div>
-
-
-
-            
-
-
-           
+          
 
             
             <ContactForm />
