@@ -1,6 +1,7 @@
 # React + TypeScript + Vite
 
 <h1> Hola mundo </h1>
+<img src="https://iconos8.es/icon/20909/html-5" alt="Descripción de la imagen">
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
